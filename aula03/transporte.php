@@ -11,7 +11,7 @@
         echo "<img src='imagens/moto.jpg' alt='' width='400' height='200'>";
     }
     else if($transporte == "ônibus"){
-        echo "<img src='imagens/onibus' alt='' width='400' height='200'>";
+        echo "<img src='imagens/onibus.jpg' alt='' width='400' height='200'>";
     }
     else if($transporte == "avião"){
         echo "<img src='imagens/aviao.jpg' alt='' width='400' height='200'>";
