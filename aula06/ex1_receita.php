@@ -9,8 +9,12 @@
 
     $res = move_uploaded_file($nome_tmp, $destino);
 
+    //para apagar o conteúdo antes de gravar
     $file = fopen("receitas.md", "a");
+    fclose($file)
+    //ou file_put_contents("receitas.md", "");
 
+    $file = fopen("receitas.md", "a");
 
     fwrite($file, "<strong>$nome_receita</strong>\n");
     fwrite($file, "$destino\n\n");
