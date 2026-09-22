@@ -11,7 +11,7 @@
 
     //para apagar o conteúdo antes de gravar
     $file = fopen("receitas.md", "a");
-    fclose($file)
+    fclose($file);
     //ou file_put_contents("receitas.md", "");
 
     $file = fopen("receitas.md", "a");
