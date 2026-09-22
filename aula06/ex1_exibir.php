@@ -1,8 +1,6 @@
 <?php
     $file = fopen("receitas.md", "r");
 
-
-
     while(!feof($file)){
         $text = fgets($file);
         if(str_contains($text, "imagens/"))
