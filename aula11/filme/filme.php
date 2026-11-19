@@ -18,10 +18,10 @@
         <label for="">Link</label>
         <input type="text" name="link"> <br> <br>
         <label for="">Classificação</label>
-        <input type="number" name="classificacao"> <br> <br>
+        <input type="number" name="classificacao" min="0" max="18" value="0"> <br> <br>
         <label for="">Nota</label>
-        <input type="number" name="nota"> <br> <br>
-        <input type="submit">
+        <input type="number" name="nota" min="0" max="10" value="0"> <br> <br>
+        <input type="submit" value="Cadastrar"   >
         <input type="reset" value="Limpar">
     </form>
 </body>
